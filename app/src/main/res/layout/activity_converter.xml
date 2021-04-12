@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_background1"
+    android:backgroundTint="#99FFFFFF"
+    android:backgroundTintMode="src_over"
+    android:orientation="vertical"
+    android:padding="10dip"
+    tools:context=".ConverterActivity">
+
+    <!-- Text Label -->
+    <TextView
+        android:id="@+id/howMuch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="5dp"
+        android:background="@color/gold"
+        android:gravity="center"
+        android:text="@string/howMuch"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <!-- Spinner Element -->
+
+
+    <EditText
+        android:id="@+id/amountInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/amountHint"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/fromCurr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="5dp"
+        android:background="@color/gold"
+        android:gravity="center"
+        android:text="@string/fromCurrency"
+
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <!-- Spinner Element -->
+    <Spinner
+        android:id="@+id/spinner_from"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/spinner_title" />
+
+    <TextView
+        android:id="@+id/toCurr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="5dp"
+        android:background="@color/gold"
+        android:gravity="center"
+        android:text="@string/toCurrency"
+
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <!-- Spinner Element -->
+    <Spinner
+        android:id="@+id/spinner_to"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/spinner_title" />
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/convert"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/convertedAmount"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="@string/convertedNumberText"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/errorMess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/errorMessage" />
+</LinearLayout>

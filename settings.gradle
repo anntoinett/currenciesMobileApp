@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "AntoniaPękala_lab2_API"

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AntoniaPękala_lab2_API</string>
+    <string name="todayRateText">Dzisiejszy kurs: %1$f</string>
+    <string name="yesterdayRateText">Wczorajszy kurs: %1$f</string>
+    <string name="welcomeText">Witaj :) </string>
+    <string name="ratesText">Kursy walut</string>
+    <string name="goldText">Złoto</string>
+    <string name="converterText">Przelicznik</string>
+    <string name="spinner_title">Wybierz walutę</string>
+    <string name="convert">Konwertuj!</string>
+    <string name="convertedNumberText">Wynik</string>
+    <string name="converter_title">Konwerter walut</string>
+    <string name="downloadingError">Wystąpił błąd podczas pobierania danych, spróbuj ponownie później lub sprawdź swoje połączenie internetowe.</string>
+    <string name="currencies_title">Kursy walut</string>
+    <string name="howMuch">Ile?:</string>
+    <string name="fromCurrency">Z waluty:</string>
+    <string name="toCurrency">Na walutę:</string>
+    <string name="errorMessage">Error occurred!</string>
+    <string name="amountHint">Kwota</string>
+    <string name="historicRatesTitle">Szczegóły</string>
+    <string name="notEnoughParameters">Nie podałeś wszystkich parametrów!</string>
+    <string name="chooseCurrency">Wybierz walutę</string>
+
+</resources>
