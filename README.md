@@ -1,5 +1,5 @@
 # currenciesMobileApp
-Currencies app made for mobile technologies academic course 
+Currencies android app made for mobile technologies academic course 
 
 - currencies current rates/rates rise info & 7/30 days rates charts
 - gold current rate & 7 days rates chart
